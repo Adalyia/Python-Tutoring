@@ -3,7 +3,7 @@
     Author(s): Emily Cohen (github.com/Adalyia)
     Date: 2022-09-20
 
-    Lists are exactly that, a list o values.
+    Lists are exactly that, a list of values.
     Lists are mutable, meaning they can be changed after they are created.
     Lists are ordered, meaning the order of the values in the list is preserved.
     Lists are indexed, meaning each value in the list has an index.
