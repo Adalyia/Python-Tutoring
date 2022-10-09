@@ -70,3 +70,45 @@ if __name__ == "__main__":
         # previous condition was already found to be valid.
         print("y is greater than x")
 
+    # Conditionals may be combined with other operators to create more
+    # complex conditions. The following operators are available:
+    #   and  Both conditions must be True
+    #   or   Either condition must be True
+    #   not  The condition must be False
+    #   in   The value must be in the list
+    #   not in   The value must not be in the list
+    #   is   The value must be the same object
+    #   is not   The value must not be the same object
+    #   is None   The value must be None
+    #   is not None   The value must not be None
+    #   is True   The value must be True
+    #   is not True   The value must not be True
+    #   is False   The value must be False
+    #   is not False   The value must not be False
+    if x == y and y > x:
+        # This code in this indented block will only be executed if x == y
+        # which is presently False and y > x which is presently True.
+        # This block will not be executed.
+        print("x is equal to y and y is greater than x")
+
+    if x == y or y > x:
+        # This code in this indented block will only be executed if x == y
+        # which is presently False or y > x which is presently True.
+        # This block will be executed.
+        print("x is equal to y or y is greater than x")
+
+    if not x == y:
+        # This code in this indented block will only be executed if x != y
+        # which is presently True. This block will be executed.
+        print("x is not equal to y")
+
+    if x in [1, 2, 3, 4, 5]:
+        # This code in this indented block will only be executed if x is in
+        # the list [1, 2, 3, 4, 5]. This block will be executed.
+        print("x is in the list [1, 2, 3, 4, 5]")
+
+    if x not in [1, 2, 3, 4, 5]:
+        # This code in this indented block will only be executed if x is not
+        # in the list [1, 2, 3, 4, 5]. This block will not be executed.
+        print("x is not in the list [1, 2, 3, 4, 5]")
+
