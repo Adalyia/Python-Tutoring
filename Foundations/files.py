@@ -37,7 +37,7 @@ if __name__ == "__main__":
     # a context manager to open the file. The context manager will automatically
     # close the file when it is done reading the file. This is the preferred
     # way to open files.
-    with open("classes.py", "r") as file:
+    with open("classes.py", "r") as file:  # Open the file in read-only mode. The default mode is 'r'.
         # Read the entire file.
         contents: str = file.read()
         print(contents)
