@@ -1,7 +1,7 @@
 """ Structural pattern matching in Python 3.10+
 
     Author(s): Emily Cohen (github.com/Adalyia)
-    Date: 2022-09-29
+    Date: 2022-10-10
 
     Structural pattern matching is a new feature in Python 3.10 that allows
     you to match a value against a pattern. If the value matches the pattern,
